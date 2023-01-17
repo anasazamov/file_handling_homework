@@ -12,4 +12,3 @@ def main(data:str):
     for i in arr2:
         arr.append(int(i))
     return arr
-print(main('txt_file/data01.txt'))
