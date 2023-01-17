@@ -10,5 +10,5 @@ def main(data:str):
     txt=open(data,mode="r").read()
     arr2=txt.split(",")
     for i in arr2:
-        arr.append(int(i))
+        arr.append((i))
     return arr
