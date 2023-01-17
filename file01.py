@@ -7,8 +7,7 @@ def main(data:str):
         list: return answer
     """
     arr=[]
-    txt=open(data,mode="r").read()
-    arr2=txt.split(",")
+    arr2=data.split(",")
     for i in arr2:
         arr.append((i))
     return arr
