@@ -7,8 +7,8 @@ def main(data:str):
         list: return answer
     """
     num,char=0,0
-    f=open(data).read()
-    for i in f :
+    )
+    for i in data :
         if i.isdigit():
             num+=1
         elif i.isalpha():
