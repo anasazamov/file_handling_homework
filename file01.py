@@ -9,5 +9,5 @@ def main(data:str):
     arr=[]
     arr2=data.split(",")
     for i in arr2:
-        arr.append(i)
+        arr.append(int(i))
     return arr
