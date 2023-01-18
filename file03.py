@@ -7,8 +7,8 @@ def main(data:str):
         list: return answer
     """
     arr2=[]
-    txt=open(data,mode="r").read()
-    for i in txt:
+  
+    for i in data:
         
         if i.isdigit():
             arr2.append(i)
@@ -16,4 +16,3 @@ def main(data:str):
     return arr2
     
 # Read data from file
-print(main('txt_file/data03.txt'))
