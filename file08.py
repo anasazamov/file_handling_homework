@@ -7,8 +7,8 @@ def main(data:str):
         int: return answer
     """
     answer=[]
-    f=open(data,mode='r').read()
-    for i in f.split('\n'):
+
+    for i in data.split('\n'):
         for j in i.split(' ')[1]:
                 answer.append(j)
     return max(answer)
