@@ -7,8 +7,8 @@ def main(data:str):
         int: return answer
     """
     answer=0
-    f=open(data).read()
-    for i in f:
+ 
+    for i in data:
         if i.isdigit():
             answer+=int(i)
     return answer    
