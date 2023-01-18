@@ -7,8 +7,8 @@ def main(data:str):
         list: return answer
     """
     a=[]
-    f=open(data,mode="r").read()
-    for i in f:
+ 
+    for i in data:
         if not i.isdigit():
             a.append(i)
     return a
