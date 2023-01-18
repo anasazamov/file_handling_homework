@@ -10,8 +10,8 @@ def main(data:str):
 # Read data from file
     answer=[]
     answer2=[]
-    f=open(data,mode='r').read()
-    for i in f.split('\n'):
+  
+    for i in data.split('\n'):
         for j in i.split(' ')[1]:
                 answer.append(j)
     for i in answer:
